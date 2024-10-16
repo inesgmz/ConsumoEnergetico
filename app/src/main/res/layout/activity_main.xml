@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/purple_200">
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONSUMO ENERGÉTICO"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:gravity="top"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/mainSubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainTitle"
+        android:text="Aqui puedes ver los datos de tu consumo energetico, tambien te recomendamos ciertas cosas para reducir ese consumo. "
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:gravity="top"
+        android:textColor="@color/purple_700"
+        android:layout_gravity="center"
+        android:layout_margin="30dp" />
+
+    <Button
+        android:id="@+id/btn_graphs"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainSubTitle"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="@color/purple_500"
+        android:onClick="openGraphs"
+        android:text="Ver Gráficos"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_recommendations"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/purple_500"
+        android:gravity="center"
+        android:padding="16dp"
+        android:minWidth="120dp"
+        android:minHeight="48dp"
+        android:onClick="openRecommendations"
+        android:text="Ver Recomendaciones"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

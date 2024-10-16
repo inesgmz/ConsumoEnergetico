@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "464051110094",
+    "project_id": "consumoenergetico-a6e8e",
+    "storage_bucket": "consumoenergetico-a6e8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464051110094:android:b4dad58d4f815f21efd09f",
+        "android_client_info": {
+          "package_name": "com.example.consumoenergetico"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTbTzcumlQBBq5_IoHHiRxobhZ6acObBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
